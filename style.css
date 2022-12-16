@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@300&display=swap");
+
 :root {
   --primary-color: rgb(255, 92, 92);
   --primary-variant: #ff2d2d;
@@ -21,9 +23,11 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   color: var(--on-background);
   background-color: var(background);
@@ -42,11 +46,13 @@ section {
 h1 {
   font-size: 100px;
   margin-bottom: 0;
+  font-family: "Courgette", sans-serif;
 }
 
 h2 {
   font-size: 32px;
   font-weight: normal;
+  color: var(--on-background-alt);
 }
 
 /* Navigation */
